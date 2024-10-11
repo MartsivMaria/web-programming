@@ -1,0 +1,42 @@
+.footer {
+    width: 1600px;
+    height: 195px;
+    
+    background: #F8F8F8;
+}
+
+.txt-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer {
+    width: 44px;
+    height: 44px;
+    margin: 31px 0 26px 191px;
+}
+
+.txt-footer p {
+    width: 391px;
+    height: 28px;
+    color: #848484;
+    margin: 39px 136px 34px 838px;
+}
+
+.footer-hr {
+    width: 1219px;
+    height: 0.6px;
+    
+    background: #C4C4C4;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 248.01px;
+    height: 23px;
+    margin: 30px 708px 40px 644px;
+    transition: all .25s ease;
+}

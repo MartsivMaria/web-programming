@@ -1,0 +1,75 @@
+.hero-header {
+    width: 356px;
+    height: 160px;
+    font-family: 'Playfair Display';
+    font-size: 64px;
+    color: #202336;
+    padding-left: 110px;
+    margin-bottom: 74px;
+}
+
+.hero-paragraph {
+    width: 149px;
+    height: 27px;
+    font-family: 'Inter';
+    font-size: 22px;
+    color: #202336;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+
+.hero-form {
+    padding-left: 110px;
+    width: 474px;
+}
+
+.hero-hr {
+    width: 32px;
+    height: 2px;
+    background: #202336;
+    border-radius: 4px;
+    margin-left: 0;
+    margin-bottom: 48px;
+}
+
+.explore-btn {
+    width: 180px;
+    height: 52px;
+    background: #FB8F1D;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family: "Mulish";
+    margin: 51px 0 40px 110px;
+}
+
+.hero-img {
+    width: 35%;
+    margin-right: 134px;
+    position: absolute;
+    right: 0;
+    bottom: 45%;
+    transform: translateY(50%)
+}
+
+select {
+    box-sizing: border-box;
+    color: #4A4C53;
+    width: 220px;
+    height: 52px;
+    
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: "Inter";
+    padding-left: 31px;
+}
+
+.form-location {
+    margin: 0 30px 15px 0;
+}
+
+.form-grade {
+    margin-right: 30px;
+}

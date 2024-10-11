@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header-item {
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #B8BECD;
+    padding-right: 34px;
+}
+
+.header-item-home {
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #202336;
+    transition: all .25s ease;
+}
+
+.logo {
+    width: 41px;
+    height: 41px;
+    align-items: center;
+    padding-left: 111px;
+}
+
+.login-btn {
+    width: 132px;
+    height: 44px;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    color: #FB8F1D;
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Inter';
+    margin-right: 34px;
+}
+
+.registor-btn {
+    width: 132px;
+    height: 44px;
+    
+    background: #FB8F1D;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: 'Inter';
+    font-size: 15px;
+    margin-right: 85px;
+}
