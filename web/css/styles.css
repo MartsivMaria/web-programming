@@ -1,0 +1,18 @@
+@import "./header.css";
+@import "./hero.css";
+@import "./section2.css";
+@import "./section3.css";
+@import "./footer.css";
+
+body {
+    margin: 0;
+}
+
+.section-1 {
+    margin: 43px 105px 175px 80px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

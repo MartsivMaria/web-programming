@@ -1,0 +1,47 @@
+.section-2 {
+    width: 1600px;
+    height: 774px;
+    background-color: #F8F8F8;
+    display: flex;
+}
+
+.img-sec2 {
+    width: 659px;
+    height: 534px;
+    margin: 111px 102px 129px 141px;
+}
+
+.description {
+    margin: 207px 217px 234px 102px;
+}
+
+.title-sec2 {
+    width: 481px;
+    height: 100px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    width: 450px;
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 17px;
+    color: #7D7987;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.learn-btn {
+    width: 164px;
+    height: 48px;
+    background: #FB8F1D;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
