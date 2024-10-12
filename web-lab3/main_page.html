@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chainsaws</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TimberPro</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Головна</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Новинки</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Клієнтам
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Акції</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input id="find-item" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button id="search-btn" class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <div class="head">
+        <h1 class="head-title">Бензопили</h1>
+        <div class="sort-subtitle">
+            <p class="sort-subtitle-p">
+                Sort by the most expensive chainsaw:
+            </p>
+            <label id="sort_checkbox" class="switch">
+                <input type="checkbox" id="sort_checkbox_input">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+    <ul id="items-container" class="chainsaw">
+        <li class="chainsaw-container">
+            <img class="chainsaw-img" src="./images/chainsaw.jpg" alt="">
+            <h1 class="name-chainsaw">Zenit</h1>
+            <p class="description-chainsaw">Бензопила для заготівлі дров, догляду за деревами</p>
+            <p class="price-chainsaw">5000 грн</p>
+        </li>
+        <li class="chainsaw-container">
+            <img class="chainsaw-img" src="./images/chainsaw2.jpg" alt="">
+            <h1 class="name-chainsaw">Бензопила MS 212</h1>
+            <p class="description-chainsaw">Для роботи в приватному секторі та саду</p>
+            <p class="price-chainsaw">4500 грн</p>
+        </li>
+        <li class="chainsaw-container">
+            <img class="chainsaw-img" src="./images/chainsaw3.jpg" alt="">
+            <h1 class="name-chainsaw">Бензопила ланцюгова Dnipro-M DSG-52H</h1>
+            <p class="description-chainsaw">Універсальна бензопила для догляду за деревами, заготівлі дров</p>
+            <p class="price-chainsaw">9600 грн</p>
+        </li>
+        <li class="chainsaw-container">
+            <img class="chainsaw-img" src="./images/chainsaw4.jpg" alt="">
+            <h1 class="name-chainsaw">Бензопила MS 194 T</h1>
+            <p class="description-chainsaw">Бензопила для лісового господарства</p>
+            <p class="price-chainsaw">14000 грн</p>
+        </li>
+        <li class="chainsaw-container">
+            <img class="chainsaw-img" src="./images/chainsaw5.jpg" alt="">
+            <h1 class="name-chainsaw">Бензопила MS 210</h1>
+            <p class="description-chainsaw">Бензопила для приватного господарства</p>
+            <p class="price-chainsaw">10000 грн</p>
+        </li>
+        <li class="chainsaw-container">
+            <img class="chainsaw-img" src="./images/chainsaw6.jpg" alt="">
+            <h1 class="name-chainsaw">Бензопила ланцюгова Dnipro-M DSG-25H</h1>
+            <p class="description-chainsaw">Бензопила для догляду за деревами на присадибних ділянках</p>
+            <p class="price-chainsaw">5199 грн</p>
+        </li>
+    </ul>
+    <div class="count">
+        <p class="count-total">Count total expenses:</p>
+        <div class="price-btn">
+            <button id="count-btn">Count</button> 
+            <button id="clear-btn">Clear</button> 
+        </div>
+        <div class="total-price">
+        <p class="count-expenses">total expenses:</p>
+        <p id="sumprice" class="count-numbers">0</p>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

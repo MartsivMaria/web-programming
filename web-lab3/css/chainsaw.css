@@ -1,0 +1,112 @@
+.chainsaw {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.chainsaw-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.chainsaw-img {
+    width: 250px;
+    height: 225px;
+}
+
+.chainsaw-container:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+.name-chainsaw {
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: black;
+    text-align: left;
+}
+
+.description-chainsaw {
+    text-align: left;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    font-size: .875rem;
+    margin-bottom: 15px;
+}
+
+.price-chainsaw {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-title {
+    color: #333;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    width: 60px;
+    height: 34px;
+    -webkit-appearance: none;
+    background-color: #ccc;
+    outline: none;
+    cursor: pointer;
+    border-radius: 34px;
+    transition: background-color 0.4s;
+    margin-right: 80px;
+}
+input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.4s;
+}
+  
+input[type="checkbox"]:checked {
+    background-color: #2196F3;
+}
+  
+input[type="checkbox"]:checked::before {
+    transform: translateX(26px);
+}
+
+.sort-subtitle {
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 21px;
+}
+
+.sort-subtitle p{
+    margin-bottom: 0.8rem;
+    margin-right: 6px;
+}
