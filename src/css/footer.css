@@ -1,0 +1,43 @@
+footer {
+    background-color: #dbeae1;
+    height: 120px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-description {
+    margin-left: 30px;
+}
+.logo {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.footer-txt {
+    font-size: 11px;
+}
+.footer-hr {
+    width: 1200px;
+    height: 0.6px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: end;
+}
+
+.icons {
+    padding-right: 28px;
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.txt-p {
+    font-size: 14px;
+    color: #848484;
+    margin-left: 540px;
+}
