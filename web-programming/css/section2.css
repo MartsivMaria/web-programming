@@ -1,0 +1,126 @@
+.section-2 {
+    width: 1600px;
+    height: 774px;
+    display: flex;
+    background-color: #F8F8F8;
+}
+
+.img-sec2 {
+    width: 659px;
+    height: 534px;
+    margin-top: 111px;
+    margin-left: 141px;
+}
+
+.description {
+    margin-top: 210px;
+    margin-left: 100px;
+}
+
+.title-sec2 {
+    width: 481px;
+    height: 100px;
+
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    width: 450px;
+    height: 120px;
+
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 17px;
+
+    color: #7D7987;
+}
+
+.learn-btn {
+    width: 164px;
+    height: 48px;
+
+    background: #FB8F1D;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.learn-btn:hover {
+    animation: hoverEffect 0.3s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes hoverEffect {
+    from {
+        transform: translateY(0);
+        box-shadow: 0 4px 6px rgba(207, 135, 18, 0.1);
+    }
+    to {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 15px rgba(227, 164, 26, 0.6);
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .section-2 {
+        margin-top: 100px;
+    }
+    .img-sec2 {
+        width: 40%;;
+        margin-top: 20px;
+    }
+    .description {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .title-sec2 {
+        text-align: center;
+        
+    }
+}
+
+
+@media screen and (min-width: 1600px) and (max-width: 2160px) {
+    .section-2 {
+        width: 2160px;
+        background-color: white;
+    }
+    .img-sec2 {
+        width: 40%;
+        height: 534px;
+        margin-top: 111px;
+        margin-left: 141px;
+    }
+    .title-sec2 {
+        text-align: center;
+        font-size: 44px;
+        width: 600px;
+        margin-left: 600px;
+    }
+    .paragraph {
+        width: 600px;
+        font-size: 24px;
+        text-align: center;
+        margin-left: 600px;
+    }
+    .learn-btn {
+        width: 200px;
+        height: 48px;
+        font-size: 18px;
+        margin-left: 760px;
+    }
+}
+
+

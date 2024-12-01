@@ -1,0 +1,12 @@
+@import "./header.css";
+@import "./hero.css";
+@import "./section2.css";
+@import "./section3.css";
+@import "./footer.css";
+
+body {
+    background: #FFFFFF;
+    font-family: 'Inter', 'Playfair Display', 'Mulish', sans-serif;
+    width: 1600px;
+    height: 2700px;
+}
