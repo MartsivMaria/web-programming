@@ -1,0 +1,66 @@
+.section-3 {
+    padding: 100px 189px;
+    align-items: center;
+
+}
+
+.txt_part {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+
+}
+
+
+.txt_part h2 {
+    font-family: "Playfair Dispaly";
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.va_button {
+    color: #FB8F1D;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.va_button:hover {
+    color: #DA6F0C;
+}
+
+.photo_part {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.photo_part img {
+    transition: transform 0.3s ease;
+}
+
+.photo_part img:hover {
+    transform: scale(1.15);
+    z-index: 10;
+}
+
+@media screen and (min-width: 769px) and (max-width: 2160px) {
+    .photo_part {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 25px;
+    }
+
+    .photo_part img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .va_button {
+        display: none;
+    }
+    .txt_part h2{
+        font-size: 40px;
+    }
+}
+
